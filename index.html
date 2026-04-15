@@ -1,12 +1,12 @@
 <!-- Unit 11 Project
 Requirements
 [ yes ] $() Select by Element, ID AND Class 
-[2/3  ] Use Three Different jQuery Methods 
+[yes ] Use Three Different jQuery Methods 
 [yes  ] Add Five CSS Declarations
 [ yes ] Include Three Images
 
 Select ONE Additional 
-[ no ] Feature 1 - Use .hide() & .show() method
+[ yes ] Feature 1 - Use .hide() & .show() method
 [ no ] Feature 2 - Use .addClass() method
 [ no ] Feature 3 - Use .slideDown() method
 [ no ] Feature 4 - Use .mouseover() method
@@ -40,16 +40,22 @@ Select ONE Additional
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
 
-      $("h1").text("Lovelatinas");
-$("#one").text("Lovelightskins");
-$(".two").text("cute");
+      $("h1").text("Favorite memory #2: my teacher");
+$("#one").text("MY favorite memory: my friend");
+$(".two").text("Favorite memory #3: reading");
 $("p").css("color","pink");
-$("p").html("<strong>Lovelightskins!</strong>");
-
+$("p").html("<strong>MY favorite memory: my friend</strong>");
+$("p").css("background-color", "yellow");
 
     </script>
-    <img src="the-eminence-in-shadow@2000x1270-696x442.jpg" alt="shadow" />
-    <img src="Episode_012-07.webp" alt="ayanokoji" />
+    <script>
+      $("img").hide();
+      $("button").click(function(){
+        $("img").show(1000);
+      });
+    </script>
+    <img src="png-clipart-friendship-friends-love-miscellaneous-thumbnail.png" alt="shadow" />
+    <img src="cartoon-style-female-teacher-for-educational-materials-on-transparent-background-png.webp" alt="ayanokoji" />
      <img src="i-just-realized-actress-minami-hamabe-is-yuna-irl-v0-kmm06mk28wqf1.webp" alt="minami hamabe" />
   </body>
 </html>
