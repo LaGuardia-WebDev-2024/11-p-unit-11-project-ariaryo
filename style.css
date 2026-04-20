@@ -1,0 +1,45 @@
+
+    h1 {
+      color:rgb(142, 228, 240);
+     background-color:rgb(94, 110, 255);
+      font-size: 30px;
+   
+
+    }
+
+    h2{
+         color:rgb(255, 241, 110);
+ background-color:rgb(255, 143, 52);
+   font-size: 30px;
+    }
+p {
+     color:rgb(255, 98, 185);
+     background-color:rgb(128, 76, 250);
+      font-size: 30px;
+   
+}
+h3 {
+ color:rgb(255, 104, 58);
+     background-color:rgb(250, 88, 76);
+      font-size: 30px;
+   
+}
+
+h4 {
+ color:rgb(121, 255, 94);
+     background-color:rgb(76, 224, 250);
+      font-size: 30px;
+   
+}
+
+
+body{
+    background-image: url('cat-cute-cat.gif');
+    background-size: cover;
+    
+    
+    
+    height: 50vh;
+    padding:0;
+    margin:0;
+}
